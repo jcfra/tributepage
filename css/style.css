@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  margin: 0px auto;
+  display: flex;
+  width: 1333px;
+  flex-direction: column;
+}
+header > h1 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 60px;
+  background: #009200;
+  text-align: center;
+  font-family: "Times New Roman", "serif";
+}
+header {
+  margin: 36px 0;
+}
+header > h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: "Times New Roman", "serif";
+  text-align: center;
+  background: #fdde04;
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+}
+#img-caption {
+  font-size: 16px;
+  line-height: 24px;
+  background: #c0c1c5;
+  text-align: center;
+}
+.lista {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#tribute-info {
+	margin: 0px auto;
+	  width: 620px;
+  display: flex;
+  flex-direction: column;
+}
+#tribute-info p {
+  padding: 6px 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: "Times New Roman", "serif";
+  background: #009200;
+}
+.container-relacao {
+  display: flex;
+  justify-content: center;
+}
+.relacao {
+  background: #fdde04;
+  padding: 20px 100px;
+  width: 620px;
+}
+.lista ul {
+  display: block;
+  margin: 0px auto;
+}
+.lista li {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.citacao em {
+		display: flex;
+	margin:20px auto;
+	width: 620px;
+	  font-size: 16px;
+  line-height: 25px;
+  font-weight:400;
+	padding: 20px 5px;
+	background: #c0c1c5;
+	
+}
+footer {
+	  background: #009200;
+	padding: 10px;
+}
+.link {
+	display: flex;
+	margin:0px auto;
+	width: 620px;
+
+}
+.link > a {
+	margin-left: 10px;
+	color:#fff;
+}
